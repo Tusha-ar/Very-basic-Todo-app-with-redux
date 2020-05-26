@@ -1,0 +1,22 @@
+.input{
+    form{
+        height: 10vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .input_field{
+            margin-bottom: 1em;
+            width: 25em;
+            border-radius: 20px 20px 20px 20px;
+            height: 2em;
+        }
+        .button{
+            padding: 5px;
+            background-color: transparent;
+            border-radius: 20px 20px 20px 20px;
+            width: 8em;
+        }
+    }
+}

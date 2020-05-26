@@ -1,0 +1,13 @@
+.showTodo ul{
+    display: grid;
+    grid-auto-rows: 3em;
+    justify-content: center;
+    li{
+        width: 30em;
+        list-style: none;
+        & button{
+            position: relative;
+            float: right;
+        }
+    }
+}
